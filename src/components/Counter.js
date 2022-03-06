@@ -11,10 +11,13 @@ const Counter = () => {
     }
 
     return (
-        <div className="container">
-            <button className="increment" onClick ={increment}>+</button>
-            <span className="spanTag">{count}</span>
-            <button className="decrement" onClick ={decrement}>-</button>
+        <div>
+            <h1>COUNTER-USING-REACT.JS</h1>
+            <div className="container">
+                <button className="increment" onClick ={increment}>+</button>
+                <span className="spanTag">{count}</span>
+                <button className="decrement" onClick ={decrement}>-</button>
+            </div>
         </div>
     )
 }

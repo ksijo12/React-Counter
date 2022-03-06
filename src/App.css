@@ -1,6 +1,12 @@
 *{
     background-color: #d3f5ce;
 }
+h1{
+    display: flex;
+    justify-content: center;
+    color: #27a09e;
+
+}
 .container{
     display: flex;
     justify-content: center;
